@@ -42,6 +42,7 @@ public class TodoController {
 		return todoService.saveTodo(todo);
 	}
 	
+	//TO check in browser
 	@GetMapping("getTodos")
 	public List<Todo> getAllTodo() {
 		return todoService.getAllTodos();
